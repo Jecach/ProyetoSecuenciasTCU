@@ -39,8 +39,11 @@ boolean boton3=false;
 boolean boton4=false;
 int tiempoespera = 3000;
 int tiempobase;
+void settings() {
+  fullScreen();
+}
+
 void setup(){
-  size(1366,768);
   circulo = loadImage("circulo.png");
   circulo.resize(0,50);
   cuadrado = loadImage("cuadrado.png");
